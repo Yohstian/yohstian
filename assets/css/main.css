@@ -48,7 +48,11 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+h1 {
+  font-family: Pacifico;
+  color: #d4145a;
+}
+
 h2,
 h3,
 h4,
