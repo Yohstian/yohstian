@@ -28,12 +28,6 @@
   scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: "Billion";
-    font-style: normal;
-    font-weight: normal;
-    src: url("<strong>https://yohstian.com/assets/fuentes/</strong>BillionDreams.woff") format("woff"), url("<strong>https://yohstian.com/assets/fuentes/</strong>BillionDreams.ttf") format("truetype");
-}
 
 /*--------------------------------------------------------------
 # General
