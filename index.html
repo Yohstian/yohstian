@@ -5,9 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PhotoFolio Bootstrap Template - Index</title>
+  <title>Yohstian</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+
+  <link href="assets/slide/estilos.css" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script defer src="assets/slide/funciones.js"></script>
+        
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -45,8 +51,7 @@
       <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1>PhotoFolio</h1>
+        <img src="assets/img/logoy.png" alt=""> 
       </a>
 
       <nav id="navbar" class="navbar">
@@ -92,15 +97,49 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
-          <h2>I'm <span>Jenny Wilson</span> a Professional Photographer from New York City</h2>
-          <p>Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero. Qui voluptas amet.</p>
-          <a href="contact.html" class="btn-get-started">Available for hire</a>
+          <img src="assets/img/logo blanco.png" alt=""  width=100% heigh=100vh> 
+          <!-- <a href="contact.html" class="btn-get-started">Available for hire</a>-->
+          
+
         </div>
       </div>
     </div>
+    
   </section><!-- End Hero Section -->
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+  <main id="main" data-aos="fade" data-aos-delay="500">
+
+<section id="container-slider"> 
+             <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+             <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+             <ul class="listslider">
+               <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+               <li><a itlist="itList_1" href="#"></a></li>
+               <li><a itlist="itList_2" href="#"></a></li>
+             </ul>
+             <ul id="slider">
+               <li style="background-image: url('assets/slide/imagenes/01.jpg'); z-index:0; opacity: 1;" >
+                 <div class="content_slider" >
+
+                 </div>
+               </li>
+               <li style="background-image: url('assets/slide/imagenes/02.jpg'); ">
+                 <div class="content_slider" >
+                   <div>
+                     
+                     <!-- <a href="index.html" target="_blank" class="btnSlider">Acceder</a>-->
+                   </div>
+                 </div>
+               </li>
+               <li style="background-image: url('assets/slide/imagenes/03.jpg'); ">
+                 <div class="content_slider" >
+                   <div>
+                     <!-- <a href="index.html" target="_blank" class="btnSlider">Acceder</a>-->
+                   </div>
+                 </div>
+               </li>
+            </ul>
+      </section>
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">

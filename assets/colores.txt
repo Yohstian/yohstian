@@ -1,0 +1,2 @@
+fondo rosa claro #fff2f7
+rosa fuerte #d4145a

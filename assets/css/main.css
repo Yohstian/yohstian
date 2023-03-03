@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
+  --color-primary: #a72750;
   --color-secondary: #161718;
 }
 
@@ -34,7 +34,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #000;
+  background-color: #fff2f7;
 }
 
 a {
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: #d4145a;
   text-decoration: none;
 }
 
@@ -116,7 +116,7 @@ h6 {
 }
 
 .page-header p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(212, 20, 90, 0.8);
 }
 
 .page-header .cta-btn {
@@ -161,7 +161,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: rgba(212, 20, 90, 0.8);
   color: #fff;
 }
 
@@ -212,7 +212,7 @@ h6 {
 #preloader .line:before {
   content: "";
   position: absolute;
-  background-color: #fff;
+  background-color: #d4145a;
   left: 0;
   top: 50%;
   width: 1px;
@@ -319,7 +319,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background-color: #000;
+  background-color: rgba(212, 20, 90, 0.8);
 }
 
 .header .logo {
@@ -409,7 +409,7 @@ h6 {
     letter-spacing: 1px;
     font-size: 13px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -438,7 +438,7 @@ h6 {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: var(--color-secondary);
+    background: #d4145a;
     transition: 0.3s;
     border-radius: 4px;
   }
@@ -1219,12 +1219,12 @@ h6 {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 30vh;
-  background: #000;
+  height: 100vh;
+  background: url("../img/fondo2.png") top center;
   background-size: cover;
   position: relative;
-  padding: 140px 0 60px 0;
 }
+
 
 .hero h2 {
   margin: 0 0 10px 0;
@@ -1273,7 +1273,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: #d4145a;
 }
 
 @media (max-width: 768px) {
@@ -1289,7 +1289,7 @@ h6 {
   margin-top: 30px;
   padding: 30px 0;
   font-size: 14px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(212, 20, 90, 0.8)
 }
 
 .footer .copyright {
@@ -1307,3 +1307,4 @@ h6 {
 .footer .credits a {
   color: var(--color-primary);
 }
+
