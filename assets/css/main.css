@@ -28,6 +28,13 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: "Billion";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fuentes/BillionDreams.woff") format("woff"), url("assets/fuentes/BillionDreams.ttf") format("truetype");
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -47,7 +54,10 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+h1 {
+  font-family: Billion;
+}
+
 h2,
 h3,
 h4,
