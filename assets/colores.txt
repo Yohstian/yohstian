@@ -1,2 +1,5 @@
 fondo rosa claro #fff2f7
 rosa fuerte #d4145a
+rosa oscuro #a72750
+
+fondo en linea 1223 de main.css
