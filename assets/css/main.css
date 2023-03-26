@@ -34,7 +34,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  color: var(--color-default);
+  color: #d4145a;
   background-color: #fff2f7;
 }
 
@@ -48,12 +48,11 @@ a:hover {
   text-decoration: none;
 }
 
-h1 {
+h1, h2 {
   font-family: Pacifico;
   color: #d4145a;
 }
 
-h2,
 h3,
 h4,
 h5,
@@ -107,12 +106,13 @@ h6 {
   position: relative;
 }
 
+/*
 .page-header h2 {
   font-size: 56px;
   font-weight: 500;
   color: #fff;
   font-family: var(--font-secondary);
-}
+}*/
 
 @media (max-width: 768px) {
   .page-header h2 {
@@ -623,7 +623,7 @@ h6 {
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
-  color: var(--color-primary);
+  color: #d4145a;
 }
 
 .about .content ul {
@@ -644,7 +644,7 @@ h6 {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: var(--color-primary);
+  color: #d4145a;
   line-height: 0;
 }
 
@@ -1312,4 +1312,23 @@ h6 {
 .footer .credits a {
   color: var(--color-primary);
 }
+
+.layoutt {
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid:
+    "arriba arriba arriba" auto
+    "lside bdy rside" 1fr
+    "abajo abajo abajo" auto
+    / auto 1fr auto;
+  gap: 8px;
+}
+
+.arriba { grid-area: arriba; text-align: center;}
+.lside { grid-area: lside; text-align: center;}
+.bdy { grid-area: bdy; text-align: center;}
+.rside { grid-area: rside; text-align: center;}
+.abajo { grid-area: abajo; text-align: center;}
 
