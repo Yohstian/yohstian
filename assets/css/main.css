@@ -35,7 +35,7 @@
 body {
   font-family: var(--font-default);
   color: #d4145a;
-  background-color: #fff2f7;
+  background-color: #f5dae4;
 }
 
 a {
@@ -105,6 +105,7 @@ h6 {
   min-height: 30vh;
   position: relative;
 }
+
 
 /*
 .page-header h2 {
@@ -987,13 +988,37 @@ h6 {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.promocion {
+    width: 100%;
+  height: 100vh;
+  background: url("../img/fondo2.png") top center;
+  background-size: cover;
+  position: relative;
+  font-color: white;
+}
+.promocion .page-header h1{
+  color: white;
+}
+
 .services .service-item {
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
-  background: white;
+  background: #f5dae4;
   height: 100%;
   overflow: hidden;
   z-index: 1;
+}
+.services .service-itemdesc {
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #f5dae4;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.services .descripcion {
+  background: white;
 }
 
 .services .service-item:before {
