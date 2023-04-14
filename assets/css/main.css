@@ -755,6 +755,28 @@ h6 {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+
+}
+
+.gallery .description {
+  background-color: white;
+  position: relative;
+}
+
+.gallery .description p{
+  text-align: center;
+  color: #757575;
+}
+.gallery .description h3{
+  text-align: center;
+  font-family: Pacifico;
+  color: #d4145a;
+}
+.gallery .description h4{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  
+  color: #d4145a;
 }
 
 .gallery .gallery-item img {
