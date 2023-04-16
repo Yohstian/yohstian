@@ -9,6 +9,8 @@
     position: relative;
     display: block;
     width: 100vh;
+    align-self: center;
+
 
 }
 #slider {
@@ -131,8 +133,21 @@
 .item-select-slid {
     background: #FFF  !important;
 }
+@media (max-width: 668px){
+    .posicion {
+      margin-top: 150px;
+      width: 40vh;
+      height: 30vh;
+    }
+    #slider{
 
-@media screen and (max-width: 460px){
+        width: 40vh;
+        height: 30vh;
+
+    }
+}
+
+@media (max-width: 1199px){
 	.content_slider h2 {
 	    font-size: 15pt !important;
 	}
@@ -149,8 +164,9 @@
 		right: 15px !important;
 	}
 	#slider{
-		height: 400px;
-		min-height: 400px;
+        width: 70vh;
+        height: 50vh;
+
 	}
 	#slider li .content_slider{
 		padding: 10px 35px;
@@ -161,6 +177,8 @@
 	}
 
 }
+
+
 
 .posicion {
     display: flex;
