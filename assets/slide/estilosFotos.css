@@ -16,7 +16,7 @@
 #slider {
     position: center;
     display: block;
-    width: 100vh;
+    width: 100%;
     height: 70vh;
 }
 #slider li {
@@ -134,16 +134,9 @@
     background: #FFF  !important;
 }
 @media (max-width: 668px){
-    .posicion {
-      margin-top: 150px;
-      width: 40vh;
-      height: 30vh;
-    }
-    #slider{
-
-        width: 40vh;
-        height: 30vh;
-
+    #container-slider
+    {
+        width: 80%;
     }
 }
 
@@ -164,8 +157,8 @@
 		right: 15px !important;
 	}
 	#slider{
-        width: 70vh;
-        height: 50vh;
+        width: 100%;
+        height: 40vh;
 
 	}
 	#slider li .content_slider{

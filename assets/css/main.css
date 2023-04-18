@@ -1340,7 +1340,10 @@ h6{
   gap: 8px;
 }
 
-.arriba { grid-area: arriba; text-align: center;}
+.arriba { 
+ text-align: center;
+
+}
 .lside { grid-area: lside; text-align: center;}
 .bdy { 
   grid-area: bdy; 
@@ -1352,7 +1355,6 @@ h6{
 
 .nosotros {
   width: 100%;
-  
   background: linear-gradient(90deg, #FFF7AD 0%, #FFA9F9 100%);
   background-size: cover;
   position: relative;
@@ -1360,6 +1362,14 @@ h6{
 .nosotros p {
   color: var(--color-secondary);
   font-style: var(--font-primary);
+}
+
+.nosotrosContenido {
+  width: 100%;
+  height: 100vh;
+  display: inline;
+  justify-content: center;
+  align-content: center;
 }
 
 .compras {
@@ -1488,10 +1498,11 @@ h6{
 }
 
 
-@media (max-width: 1199px) {
+@media (max-width: 1190px) {
 
-  .lside { display: none; }
-  .rside { display: none;}
-
+  .lado { display: none; }
+  .nosotrosContenido {
+    height: 80vh;
+  }
 
 }
